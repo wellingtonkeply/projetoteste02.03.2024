@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+
+        }
+
+        div:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mause sobre o texto abaixo</p>
+    <div>Passe o mause aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <P>Fim do exemplo</P>
+
+    <p>Nesse capitulo aprendemos que, podemos, realizar interação com as "pseudo-class com as Div:hover", trazendo interção nos elementos, como ocutação de textos ou Drop box um menu de caracteres. </p>
+    <p class="vemquetem">
+        &lt;style> <br>
+        div > p{
+            display: none;
+        } <br>
+        div:hover > p{
+            display: block;<br>
+            color: white;<br>
+            background-color: red;<br>
+            width: 300px;<br>
+        }
+        &lt;/style>
+    </p>
+
+</body>
+</html>
